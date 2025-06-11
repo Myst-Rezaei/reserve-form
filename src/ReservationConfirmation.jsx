@@ -4,7 +4,7 @@ import React from "react";
 export default function ReservationConfirmation({ data }) {
 
     return (
-        <div className="bg-gray-400 p-4 max-w-screen min-h-screen sm:rounded-lg">
+        <div className="bg-gray-400 p-4 min-h-screen w-full sm:rounded-lg">
             <div className=" mx-auto w-[576px] h-[750px] shadow-md sm:rounded-lg mt-12 mb-12 bcg-hami ">
                 <div className="w-full max-w-4xl mx-auto p-6 text-right leading-relaxed" dir="rtl">
 

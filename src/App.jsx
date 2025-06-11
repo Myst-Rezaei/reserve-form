@@ -98,7 +98,7 @@ export default function App() {
     };
 
     return (
-        <div className="p-4 font-vazir rtl bg-gray-100 min-h-screen justify-items-center">
+        <div className="p-4 font-vazir rtl justify-items-center">
             <div className="flex justify-center mb-6">
                 <label className="cursor-pointer bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
                     بارگذاری فایل رزرو
