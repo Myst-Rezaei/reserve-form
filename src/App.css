@@ -1,38 +1,40 @@
-.App {
-  text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'PeydaWeb';
+    src: url('./font/woff2/PeydaWeb-Medium.woff2') format('woff2'),
+    url('./font/woff/PeydaWeb-Medium.woff') format('woff'),
+    url('./font/eot/PeydaWeb-Medium.eot') format('embedded-opentype'),
+    url('./font/ttf/Peyda-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+    font-family: 'PeydaWeb';
+    src: url('./font/woff2/PeydaWeb-Bold.woff2') format('woff2'),
+    url('./font/woff/PeydaWeb-Bold.woff') format('woff'),
+    url('./font/eot/PeydaWeb-Bold.eot') format('embedded-opentype'),
+    url('./font/ttf/Peyda-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+
+body {
+    font-family: 'PeydaWeb';
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bcg-hami {
+    background-image: url('./images/background-01.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+   /* width: 384px;
+    height: 500px;*/
 }
